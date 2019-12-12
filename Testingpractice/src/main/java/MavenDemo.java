@@ -32,6 +32,7 @@ public class MavenDemo {
 	{
 		Select s=new Select(ele);
 				s.selectByVisibleText(value);
+		System.out.println("Testing");
 	}
 
 	public static String readExcelData(String path, String excelSheet, int excelRow, int excelCell ) throws IOException
